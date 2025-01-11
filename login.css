@@ -1,0 +1,108 @@
+body {
+    font-family: calibri; 
+    margin: 0; 
+    padding: 0%; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around;
+    align-items: flex-start;
+    height:auto;
+}
+.section {
+    padding: 30px; 
+    margin: 0%; 
+    border:0; 
+}
+.section1 {
+    background-color: white; 
+    padding: 40px; 
+    width: 1000px; 
+    height: 650px;
+}
+.section2 {
+    background-color: #E5E5E569;
+    padding: 40px; 
+    width: 1000px; 
+    height: 650px;
+}
+.section1 h2 {
+    color: blue;
+    font-weight: bold;
+}
+.section1 p {
+    color: blue;
+    font-size: xx-large;
+    font-weight: bolder;
+    padding-right: 90px;
+    padding-top: 70px;
+}
+.section1 ul{
+    align-items: start;
+    margin: 5px;
+}
+.section1 li {
+    display: inline-block;
+    color: crimson;
+    padding: 0%;
+    
+}
+form {
+    padding: 5px;
+}
+label{
+    padding: 5px;
+}
+.section2 ul {
+    display: flex;
+    margin: 10px;
+    gap: 85px;
+    font-size:larger;
+    font-weight: bold;
+    padding: 0%;
+}
+.section2 li {
+    display: inline-block;
+    align-self: center;
+}
+.section1 a{
+    padding-right: 100px;
+}
+img {
+    width: 750px;
+    height: 400px;
+    padding-top: 50px;
+    margin: 5px;
+}
+button{
+    border: none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 50px;
+    background-color: blue;
+    width: 60px;
+    height: 31px;
+}
+.section1 .buttons {
+    padding: 25px;
+}
+.buttons :hover {
+    background-color: rgb(92, 92, 153);
+    color:black;
+}
+footer .platforms {
+    display: flex;
+    text-align: left;
+    font-weight:lighter;
+    padding: 0%;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.platforms li{
+    display:inline-block;
+    padding-top: 0%;
+    text-align: left;
+}
+
